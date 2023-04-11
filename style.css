@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(14 66 233);
+  max-width: 100%;
+  height: 57px;
+  /* text-align: center; */
+  /* justify-self: center; */
+  /* align-items: center; */
+  /* margin:auto; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.text {
+  list-style: none;
+}
+
+li {
+  margin-top: 17px;
+  padding-left: 74px;
+}
+.ls {
+  text-align: center;
+  /* margin-top: 15px; */
+  /* padding-right: 100px; */
+}
+.search {
+  /* margin-right: 84px; */
+  width: 518px;
+  padding-left: 36px;
+  height: 34px;
+  margin-top: 11px;
+  border: none;
+  border-radius: 4px;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+main {
+  /* background-color: aqua; */
+  margin-top: 55px;
+  width: 100%;
+  height: 20vh;
+}
+.border {
+  /* border:solid black 2px; */
+}
+.cardin {
+  margin-top: 25px;
+  height: 100px;
+  margin-left: 10px;
+  text-align: center;
+  /* background-color: red; */
+}
+.cardimage {
+  margin-top: 9px;
+  /* background-color: green; */
+  height: 300px;
+}
+.product {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 15px;
+  /* height: 65vh; */
+  /* border: solid black; */
+}
+.image {
+  width: 100%;
+height :40vh;
+  /* border: solid red; */
+}
+img {
+  display: block;
+  width: 84px;
+}
+.fleximg {
+  height: 9rem;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  justify-content: space-between;
+}
+.sampimg {
+  font-family: "Roboto", sans-serif;
+  /* color: red; */
+ 
+}
+.imageh {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 1520px;
+  height: 300px;
+  /* border:solid red; */
+}
+.conatin {
+  width: 230px;
+}
+
+.image img {
+  display: block;
+  align-items: center;
+  width: 200px;
+  height: 184px;
+  /* margin: 0px 100px; */
+  width: 189px;
+  height: 188px;
+  margin-left: 64px;
+  margin-top: 6px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.flex1 div{
+  
+    text-align: center;
+    /* background-color: red; */
+}
+.footer{margin-top: 27px;
+  height:45vh;
+  width:100%;
+  display:flex;
+  background-color: rgb(20 23 30);
+
+  
+}
+.f{
+
+  width: 250px;
+
+}
+.a{
+  font-size: 15px;
+  padding-left:30px;
+  padding-top:10px;
+  color:white;
+  font-family: "Roboto", sans-serif;
+}
+.b{
+  color:rgb(126, 124, 136);
+
+}
+.fi{
+  
+  font-size: 15px;
+  color:white;
+  height:40px;
+  border-top:solid white 0.5px;
+  background-color: rgb(20 23 30);
+}
+.i img{
+  width:20px;
+}
+.i{
+  margin-top: 9px;
+  padding-left: 3px;
+}
+.left{
+  margin-left: 250px;
+  /* background-color: red; */
+}
+.right{
+  margin-left: 69px;
+}
+.ls a{
+color:blue;
+  border-color: black;
+
+  
+
+}
+.l{ 
+  display:flex;
+  align-items: center;
+  text-align: center;
+  /* background-color: red; */
+  width:200px;
+justify-content: center;
+  /* width:30px;
+  height:30px; */
+}
+.l div{
+  width:150px;
+  height:25px;
+  padding-top:8px;
+  /* padding-bottom: 5px; */
+
+  background-color: rgb(244, 247, 247);
+
+}
+.right .li{
+  display: flex;
+  /* background-color: red; */
+  width:250px;
+  justify-content: space-between;
+  text-align: center;
+
+}
+  .h{
+    margin-top: 15px;
+    text-align: center;
+
+/* background-color: antiquewhite; */
+
+}
+.hove:hover{
+ width:80px;
+ cursor: pointer;
+
+}
+.hove1:hover{
+  width: 200px;
+  height:200px;
+
+}
+.c-p{
+  cursor: pointer;
+}
+.sampimg a{
+  color:rgb(11, 11, 11);
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+.right{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  /* justify-content:space-between; */
+}
+.right .lo{
+
+padding:0px 30px;
+}
+.right .box{
+  margin: auto;
+  /* text-align: center; */
+  align-items: center;
+  background-color:white;
+  width:40px;
+  height:30px;
+
+}
+.right .box {
+  padding-top: 6px;
+
+  /* padding-left: 4px; */
+}
+.blue{
+  color:blue;
+}
+.white{
+  color:white;
+}
+.icon{
+  position: absolute;
+  top:16px;
+  /* right:5px; */
+  right:630px;
+  color:red;
+}
+.searchicon{
+  padding-left: 9px;
+  width:25px;
+  cursor:pointer
+}
+.corsor{
+  cursor: pointer;
+}
+.cardimage img{
+transition-delay: 10s;
+}
