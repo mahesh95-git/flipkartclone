@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(216, 218, 227);
+}
+.main{
+background-color: rgb(226, 238, 221);
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+margin-top: 200px;
+}
+.main{
+    width:60vh;
+    height:500px;
+    display: flex;
+   flex-direction: column;
+align-items: center;
+justify-content: center;
+position:relative;
+    margin: auto;
+    /* position: absolute; */
+    margin-top:20vh ;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main .img img{
+    padding-top:1px;
+    width:90px;
+    /* height:5px; */
+}
+.main .input input{
+    border-color:white;
+    padding-left: 15px;
+    width:270px;
+    height: 30px;
+    display: block;
+    border-radius: 8px;
+}
+.main .input .ma1{
+    margin-top: 8px;
+}
+.main .input a{
+
+    text-decoration: none;
+    color:rgb(26, 25, 25);
+}
+.main .button button{
+    cursor:pointer;
+
+    background-color: white;
+    /* border:none; */
+    /* color:blue; */
+    display: block;
+    width:270px;
+    height: 30px;
+}
+.main .button .red{
+    cursor:pointer;
+    height:35px;
+    border-radius: 8px;
+    margin-top:20px ;
+color:white;
+background-color: rgb(245, 15, 15);
+border:none;
+}
+.main .button .blue{
+    cursor:pointer;
+    height:35px;
+    border-radius: 8px;
+    margin:10px 0px;
+    color:white;
+    border:none;
+    background-color: rgb(91, 77, 245);
+    }
+    .main .button .blue1{
+        height:35px;
+        border-radius: 8px;
+        border:none;
+        color:white;
+        background-color: rgb(96, 135, 255);
+        }
+   .hov:hover{
+        color:blue;
+        height:40px;
+
+    }
+    .head{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .footer span{
+        margin-top: 4px;
+        text-align: center;
+        /* text-decoration: none; */
+        position:absolute;
+        right: 1;
+    }
+.footer span a{
+    text-decoration: none;
+    color:black;
+}
